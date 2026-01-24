@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenLog</title>
+    <!-- デザインを整えるためのツールを読み込みます -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { margin: 0; padding: 0; overflow-x: hidden; }
+      #root { min-height: 100vh; }
+    </style>
+  </head>
+  <body class="bg-stone-50">
+    <!-- ここにアプリが表示されます -->
+    <div id="root"></div>
+    
+    <!-- main.jsx を読み込みます。後ろに ?v=2 を付けることで、スマホに残った古いデータを強制的に更新します -->
+    <script type="module" src="./main.jsx?v=2"></script>
+  </body>
+</html>
